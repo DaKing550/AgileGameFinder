@@ -46,6 +46,19 @@ namespace GameFinder.Service
             }
         }
 
+        public GenreDetail GetGenreByName (string name)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity = ctx.Genres.Single(g => g.Name == name.ToLower() && g.OwnerId == _userId);
+                return new GenreDetail
+                {
+                    GenreId = entity.GenreId,
+                    Name = entity.Name.ToLower()
+                };
+            }
+        }
+
 
     }
 }

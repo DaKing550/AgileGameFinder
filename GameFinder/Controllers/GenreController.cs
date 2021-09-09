@@ -39,5 +39,12 @@ namespace GameFinder.Controllers
 
             return Ok("You successfully created a genre!");
         }
+
+        public IHttpActionResult Get (string name)
+        {
+            GenreService genreService = CreateGenreService();
+            var genre = genreService.GetGenreByName(name);
+            return Ok(genre);
+        }
     }
 }
