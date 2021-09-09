@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFinder", "GameFinder\Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFinder.Data", "GameFinder.Data\GameFinder.Data.csproj", "{650085A2-E8AD-4148-B213-D994EC7F5021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFinder.Model", "GameFinder.Model\GameFinder.Model.csproj", "{930E4890-620A-477A-A506-55924F0C6714}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFinder.Models", "GameFinder.Model\GameFinder.Models.csproj", "{930E4890-620A-477A-A506-55924F0C6714}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameFinder.Service", "GameFinder.Service\GameFinder.Service.csproj", "{08381E61-02CC-4044-94EE-75474EB4DD06}"
 EndProject

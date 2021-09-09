@@ -248,6 +248,8 @@ C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder\obj\Debug\GameFinder.cspro
 C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder\obj\Debug\GameFinder.csproj.CopyComplete
 C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder\obj\Debug\GameFinder.dll
 C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder\obj\Debug\GameFinder.pdb
+D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\obj\Debug\GameFinder.csproj.AssemblyReference.cache
+D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\obj\Debug\GameFinder.csproj.CoreCompileInputs.cache
 D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\bin\GameFinder.dll.config
 D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\bin\GameFinder.dll
 D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\bin\GameFinder.pdb
@@ -368,8 +370,6 @@ D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\bin\Microsoft.Owin.Sec
 D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\bin\Microsoft.Owin.Security.OAuth.xml
 D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\bin\System.Web.Http.Owin.xml
 D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\obj\Debug\GameFinder.csproj.AssemblyReference.cache
-D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\obj\Debug\GameFinder.csproj.CoreCompileInputs.cache
 D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\obj\Debug\GameFinder.csproj.CopyComplete
 D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\obj\Debug\GameFinder.dll
 D:\ElevenFiftyProjects\TeamProjects\GameFinder\GameFinder\obj\Debug\GameFinder.pdb

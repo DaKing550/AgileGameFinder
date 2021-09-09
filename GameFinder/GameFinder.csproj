@@ -207,6 +207,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\GameController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -311,9 +312,9 @@
       <Project>{650085a2-e8ad-4148-b213-d994ec7f5021}</Project>
       <Name>GameFinder.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\GameFinder.Model\GameFinder.Model.csproj">
+    <ProjectReference Include="..\GameFinder.Model\GameFinder.Models.csproj">
       <Project>{930e4890-620a-477a-a506-55924f0c6714}</Project>
-      <Name>GameFinder.Model</Name>
+      <Name>GameFinder.Models</Name>
     </ProjectReference>
     <ProjectReference Include="..\GameFinder.Service\GameFinder.Service.csproj">
       <Project>{08381e61-02cc-4044-94ee-75474eb4dd06}</Project>

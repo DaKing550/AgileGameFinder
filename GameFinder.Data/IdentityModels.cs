@@ -32,7 +32,7 @@ namespace GameFinder.Data
         {
             return new ApplicationDbContext();
         }
-
+        public DbSet<Game> Games { get; set; }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder
@@ -44,8 +44,7 @@ namespace GameFinder.Data
                 .Add(new IdentityUserLoginConfiguration())
                 .Add(new IdentityUserRoleConfiguration());
         }
-    }
-    
+    }    
     public class IdentityUserLoginConfiguration : EntityTypeConfiguration<IdentityUserLogin>
     {
         public IdentityUserLoginConfiguration()
