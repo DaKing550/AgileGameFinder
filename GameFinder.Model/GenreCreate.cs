@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameFinder.Data
+namespace GameFinder.Model
 {
-    class Class1
+    class GenreCreate
     {
     }
 }

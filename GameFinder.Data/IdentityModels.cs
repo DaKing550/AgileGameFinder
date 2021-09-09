@@ -27,59 +27,45 @@ namespace GameFinder.Data
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
-        
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
         }
 
-<<<<<<< HEAD
-        public DbSet <Game> Games { get; set; }
 
-=======
->>>>>>> 964dba9461638b9a2249f2dc8e549b9d12b4aa88
+        public DbSet<Game> Games { get; set; }
+
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder
                 .Conventions
                 .Remove<PluralizingTableNameConvention>();
-<<<<<<< HEAD
-            modelBuilder
-                .Configurations
-                .Add(new IdentityUserLoginConfiguration())
-                .Add(new IndentityRoleConfiguration());
-        }
-    }
-
-=======
 
             modelBuilder
                 .Configurations
                 .Add(new IdentityUserLoginConfiguration())
                 .Add(new IdentityUserRoleConfiguration());
         }
-    }
-    
->>>>>>> 964dba9461638b9a2249f2dc8e549b9d12b4aa88
-    public class IdentityUserLoginConfiguration : EntityTypeConfiguration<IdentityUserLogin>
-    {
-        public IdentityUserLoginConfiguration()
-        {
-            HasKey(iul => iul.UserId);
-        }
-    }
 
-<<<<<<< HEAD
-    public class IndentityRoleConfiguration : EntityTypeConfiguration<IdentityUserRole>
-    {
-        public IndentityRoleConfiguration()
-=======
-    public class IdentityUserRoleConfiguration : EntityTypeConfiguration<IdentityUserRole>
-    {
-        public IdentityUserRoleConfiguration()
->>>>>>> 964dba9461638b9a2249f2dc8e549b9d12b4aa88
+
+        public class IdentityUserLoginConfiguration : EntityTypeConfiguration<IdentityUserLogin>
         {
-            HasKey(iur => iur.UserId);
+            public IdentityUserLoginConfiguration()
+            {
+                HasKey(iul => iul.UserId);
+            }
+        }
+
+
+        public class IdentityUserRoleConfiguration : EntityTypeConfiguration<IdentityUserRole>
+        {
+            public IdentityUserRoleConfiguration()
+
+            {
+                HasKey(iur => iur.UserId);
+            }
         }
     }
 }
