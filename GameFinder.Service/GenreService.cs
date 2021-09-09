@@ -32,7 +32,7 @@ namespace GameFinder.Service
             }
         }
 
-        public IEnumerable<GenreListItem> GetPosts()
+        public IEnumerable<GenreListItem> GetGenres()
         {
             using (var ctx = new ApplicationDbContext())
             {
