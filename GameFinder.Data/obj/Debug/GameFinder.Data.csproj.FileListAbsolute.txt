@@ -67,3 +67,4 @@ C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder.Data\obj\Debug\GameFinder.
 C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder.Data\obj\Debug\GameFinder.Data.csproj.CopyComplete
 C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder.Data\obj\Debug\GameFinder.Data.dll
 C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder.Data\obj\Debug\GameFinder.Data.pdb
+C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder.Data\obj\Debug\GameFinder.Data.csproj.AssemblyReference.cache

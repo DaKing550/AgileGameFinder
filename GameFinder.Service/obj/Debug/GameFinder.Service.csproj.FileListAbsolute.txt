@@ -29,3 +29,4 @@ C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder.Service\obj\Debug\GameFind
 C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder.Service\obj\Debug\GameFinder.Service.csproj.CopyComplete
 C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder.Service\obj\Debug\GameFinder.Service.dll
 C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder.Service\obj\Debug\GameFinder.Service.pdb
+C:\Users\Saed\Source\Repos\AgileGameFinder\GameFinder.Service\obj\Debug\GameFinder.Service.csproj.AssemblyReference.cache
