@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace GameFinder.Model
 {
-    class GenreListItem
+   public class GenreListItem
     {
+        public int GenreId { get; set; }
+        public string Name { get; set; }
     }
 }
