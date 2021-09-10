@@ -2,15 +2,15 @@
 
 [Our Trello Board](https://trello.com/b/CZWr7AXW/agile-project-board)
 
-## Our resources:
+## External resources:
 
-*Assignment Page:
+* Assignment Page:
 https://elevenfifty.instructure.com/courses/775/assignments/16307?module_item_id=69474
 
-*Agile glossary:
+* Agile glossary:
 https://www.smartsheet.com/ultimate-agile-dictionary
 
-*Markdown cheat sheet:
+* Markdown cheat sheet:
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 * Markdown editor for VS:
