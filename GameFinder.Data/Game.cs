@@ -5,8 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameFinder.Data
-{
+namespace GameFinder.Data 
+{ 
     public class Game
     {
         [Key]
@@ -14,7 +14,8 @@ namespace GameFinder.Data
         [Required]
         public string Title { get; set; }
 
+
         public Guid GamesId { get; set; }
-        
+       
     }
 }

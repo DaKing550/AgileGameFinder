@@ -1,5 +1,5 @@
-﻿using GameFinder.Models;
-using GameFinder.Services;
+﻿using GameFinder.Model;
+using GameFinder.Service;
 using Microsoft.AspNet.Identity;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace _24hGoldTeam.Controllers
+namespace GameFinder.Controllers
 {
     [Authorize]
     public class GameController : ApiController

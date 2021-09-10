@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameFinder.Models
+namespace GameFinder.Model
 {
     public class GameListItem
     {
