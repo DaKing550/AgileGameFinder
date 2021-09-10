@@ -59,6 +59,18 @@ namespace GameFinder.Service
             }
         }
 
+        public bool UpdateGenre (GenreEdit genre)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity = ctx.Genres.Single(g => g.GenreId == genre.GenreId && g.OwnerId == _userId);
+
+                entity.Name = genre.Name;
+
+                return ctx.SaveChanges() == 1;
+            }
+        }
+
 
     }
 }

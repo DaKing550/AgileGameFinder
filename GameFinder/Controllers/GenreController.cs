@@ -46,5 +46,20 @@ namespace GameFinder.Controllers
             var genre = genreService.GetGenreByName(name);
             return Ok(genre);
         }
+
+        public IHttpActionResult Put (GenreEdit genre)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var service = CreateGenreService();
+
+            if (!service.UpdateGenre(genre))
+                return InternalServerError();
+
+            return Ok("You genre waa successfuly updated!");
+
+
+        }
     }
 }
