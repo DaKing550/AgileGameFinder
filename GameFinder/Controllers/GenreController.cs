@@ -61,5 +61,15 @@ namespace GameFinder.Controllers
 
 
         }
+
+        public IHttpActionResult Delete (int id)
+        {
+            var service = CreateGenreService();
+
+            if (!service.DeleteGenre(id))
+                return InternalServerError();
+
+            return Ok("Delete complete");
+        }
     }
 }

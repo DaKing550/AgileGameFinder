@@ -71,6 +71,18 @@ namespace GameFinder.Service
             }
         }
 
+        public bool DeleteGenre (int id)
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var entity = ctx.Genres.Single(e => e.GenreId == id && e.OwnerId == _userId);
+
+                ctx.Genres.Remove(entity);
+
+                return ctx.SaveChanges() == 1;
+            }
+        }
+
 
     }
 }
