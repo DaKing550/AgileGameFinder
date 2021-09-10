@@ -54,7 +54,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GenreCreate.cs" />
+    <Compile Include="GenreDetail.cs" />
+    <Compile Include="GenreEdit.cs" />
+    <Compile Include="GenreListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="GameCreate.cs" />
+    <Compile Include="GameDetail.cs" />
+    <Compile Include="GameEdit.cs" />
+    <Compile Include="GameListItem.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

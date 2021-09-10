@@ -5,17 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GameFinder.Data 
-{ 
-    public class Game
+namespace GameFinder.Model
+{
+    public class GameCreate
     {
-        [Key]
+
         public int GameId { get; set; }
-        [Required]
         public string Title { get; set; }
 
 
-        public Guid GamesId { get; set; }
-       
     }
 }

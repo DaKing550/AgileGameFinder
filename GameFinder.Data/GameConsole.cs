@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GameFinder.Data
 {
-    class Class1
+    class GameConsole
     {
     }
 }
